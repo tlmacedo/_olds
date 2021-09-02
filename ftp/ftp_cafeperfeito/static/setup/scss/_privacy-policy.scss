@@ -1,0 +1,51 @@
+.privacy-policy {
+  padding-top: 30px;
+  color: black;
+  text-align: justify;
+
+  h1 {
+    color: black;
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+  }
+
+  p {
+    color: black;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-bottom: 3px;
+
+    .information {
+      color: #808080;
+      font-size: 13px;
+
+      &.domain {
+        font-weight: bold;
+      }
+
+      &.label-responsavel {
+        font-weight: bold;
+        color: black;
+        font-size: 15px
+      }
+    }
+  }
+
+  ul {
+    padding-left: 75px;
+    .information.responsavel{
+        color: #808080;
+        font-family: Helvetica;
+    }
+  }
+
+  strong {
+    font-weight: bold;
+    font-size: 18px;
+  }
+}

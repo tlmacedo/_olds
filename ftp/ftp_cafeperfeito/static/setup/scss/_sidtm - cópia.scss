@@ -1,0 +1,83 @@
+//* {
+//  border: 1px solid #c12222;
+//}
+
+.sidtm-login {
+
+  color: black;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+  form {
+    .input-group {
+      input, .input-group-text {
+        height: 35px;
+      }
+    }
+  }
+
+  //.img-circle {
+  //  position: relative;
+  //  top: 0;
+  //  left: 0;
+  //  border-radius: 50%;
+  //  margin-right: 5px;
+
+  .login {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 150px;
+    background: $cafe-perfeito-black-1;
+    background-size: 220px, 79px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  @media (max-width: 1950px) {
+    margin-top: 30px;
+    width: 900px;
+  }
+
+  @media (max-width: 800px) {
+    width: 85%;
+  }
+
+  @media (max-width: 420px) {
+    width: 100%;
+  }
+  //}
+}
+
+
+.sidtm-base {
+  height: 1000px;
+
+
+    .header-logo {
+      padding-left: 15px;
+
+    //font-size: 24px;
+    //width: 100%;
+    //height: 100px;
+    //background: white;
+    //position: fixed;
+    //text-align: center;
+    //line-height: 50px;
+    //top: 0;
+    //left: 0;
+
+    &.shadow {
+      -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+      -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+      box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    }
+  }
+
+
+}
+
+
+

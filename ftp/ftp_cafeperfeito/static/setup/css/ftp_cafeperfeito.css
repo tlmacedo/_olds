@@ -1,0 +1,142 @@
+.privacy-policy {
+  padding-top: 30px;
+  color: black;
+  text-align: justify; }
+  .privacy-policy h1 {
+    color: black;
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px; }
+  .privacy-policy p {
+    color: black;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-bottom: 3px; }
+    .privacy-policy p .information {
+      color: #808080;
+      font-size: 13px; }
+      .privacy-policy p .information.domain {
+        font-weight: bold; }
+      .privacy-policy p .information.label-responsavel {
+        font-weight: bold;
+        color: black;
+        font-size: 15px; }
+  .privacy-policy ul {
+    padding-left: 75px; }
+    .privacy-policy ul .information.responsavel {
+      color: #808080;
+      font-family: Helvetica; }
+  .privacy-policy strong {
+    font-weight: bold;
+    font-size: 18px; }
+
+@media (max-width: 800px) {
+  .header .texto .txt1, .header .texto .txt2 {
+    font-size: 12px; } }
+@media (max-width: 768px) {
+  .header .texto {
+    padding-right: 12px; }
+    .header .texto .txt1 {
+      display: none; }
+    .header .texto .txt2 {
+      font-size: 12px; }
+
+  .banner-area {
+    padding-top: 60px !important; }
+    .banner-area .container {
+      margin-top: 0 !important; } }
+@media (max-width: 375px) {
+  .header .texto .txt1 {
+    display: none; }
+  .header .texto .txt2 {
+    font-size: 10px; }
+
+  .banner-area {
+    padding-top: 80px !important; }
+    .banner-area .container {
+      margin-top: 0 !important; } }
+.ico-whatsapp img {
+  --bottom: 30px;
+  left: 30px;
+  position: fixed;
+  z-index: 1000;
+  height: 35px;
+  right: var(--right);
+  bottom: var(--bottom); }
+
+.messages_info {
+  margin-top: 15px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 15px;
+  color: red; }
+
+.sidtm-base svg.svg_logo_3 {
+  height: 50px; }
+.sidtm-base .svg-text-cafe {
+  fill: #fff; }
+.sidtm-base .svg-text-perfeito {
+  fill: #fff; }
+
+body .sidtm-login, html .sidtm-login {
+  margin: 0;
+  padding: 90px;
+  height: 100%;
+  background: #c0ccce !important; }
+.sidtm-login .user_card {
+  height: 400px;
+  width: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: url(../../setup/images/bg-cafe-caindo-2.png) no-repeat center top;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px; }
+.sidtm-login .brand_logo_container {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  top: -75px;
+  border-radius: 50%;
+  background: #c0ccce;
+  padding: 10px;
+  text-align: center; }
+.sidtm-login .brand_logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background: white; }
+.sidtm-login .form_container {
+  margin-top: 90px; }
+.sidtm-login .login_container {
+  padding: 0 2rem; }
+  .sidtm-login .login_container .btn_login {
+    width: 100%;
+    background: #c0392b !important;
+    color: white !important; }
+    .sidtm-login .login_container .btn_login:hover {
+      opacity: 0.8; }
+.sidtm-login .input-group-text {
+  background: #c0392b !important;
+  color: white !important;
+  border: 0 !important;
+  border-radius: 0.25rem 0 0 0.25rem !important;
+  height: 100%; }
+.sidtm-login .btn_login:focus, .sidtm-login .input_user:focus, .sidtm-login .input_pass:focus {
+  box-shadow: none !important;
+  outline: 0px !important; }
+.sidtm-login .mostrar_senha {
+  color: #fff; }
+
+/*# sourceMappingURL=ftp_cafeperfeito.css.map */

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="cafeperfeito.com.br" exclude=".svn;.cvs;.idea;.DS_Store;.git;.hg;*.hprof;*.pyc;venv" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="cafeperfeito.com.br">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/apps_wsgi/ftp_cafeperfeito" local="$PROJECT_DIR$" web="/www" />
+            <mapping deploy="/www/static/setup" local="$PROJECT_DIR$/static/setup" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/.git" />
+            <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
+            <excludedPath local="true" path="$PROJECT_DIR$/venv" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

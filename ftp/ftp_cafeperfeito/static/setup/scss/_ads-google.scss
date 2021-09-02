@@ -1,0 +1,111 @@
+$CorTextoPrincipal: #fff;
+$CorFundoPrincipal: #382218;
+$FundoEscurecido: rgba(20, 2, 0, 0.3);
+
+body.ads-google {
+
+  background-color: $CorFundoPrincipal;
+  color: $CorTextoPrincipal;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+  position: relative;
+  transition: all 0.5s;
+
+}
+
+.ads-google {
+
+  .header {
+
+    position: absolute;
+    width: 100%;
+    padding: 20px 10px 0 0;
+    margin: 0;
+
+    img {
+
+      position: absolute;
+      width: 30%;
+      margin: auto 35% auto 10px;
+
+    }
+
+    .texto {
+
+      padding: 0 15px 0 0;
+
+      .txt1, .txt2 {
+
+        text-align: right;
+        margin: 0 auto;
+
+      }
+
+      a {
+
+        color: $CorTextoPrincipal;
+        text-decoration: none;
+
+      }
+    }
+  }
+
+  .banner-area {
+
+    .container {
+
+      margin-top: 30px;
+
+    }
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: $main-banner;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+
+  form {
+
+    div {
+
+      margin-bottom: 10px;
+
+      a {
+
+        color: #c3dbff;
+
+      }
+    }
+
+    button {
+
+      border: 1px solid rgba(0, 0, 0, .14);
+      border-radius: 3px;
+      color: #fff;
+      -webkit-appearance: button;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1;
+      padding: 10px 25px;
+
+      &.btn-lead {
+
+        background-color: #ab3d3a;
+        width: 100%;
+
+      }
+    }
+
+  }
+
+}
+
+
+
+
+
+

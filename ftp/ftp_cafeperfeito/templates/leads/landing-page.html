@@ -1,0 +1,89 @@
+{% extends 'leads/_layouts/base.html' %}
+{% load static %}
+
+{% block title %}Cadastro - {% endblock %}
+
+{% block pixel_facebook %}
+{% endblock %}
+
+{% block block_header %}
+    <div class="container-fluid header">
+        <div class="row">
+            <div class="col-sm-12">
+                <img src="{% static 'setup/images/sistema/cafe-perfeito-white_3.png' %}" alt="Logo">
+            </div>
+            {#            <div class="col-3">#}
+            <div class="texto text-white">
+                <p class="txt1">Seg-Sex: 8h às 17h<br>Sáb: 8h às 14h<br></p>
+                <p class="txt2"><a href="tel:{{ settings.TELEFONE }}"><i
+                        class="fas fa-phone"></i> {{ settings.TELEFONE }}
+                </a></p>
+            </div>
+            {#            </div>#}
+        </div>
+    </div>
+{% endblock %}
+
+{% block block_content %}
+    <section class="banner-area text-white">
+        <div class="container">
+            <div class="row fullscreen d-flex align-items-center justify-content-start" style="height: 861px;">
+                {#                <div>#}
+                {#                    <img src="{% static 'setup/images/sistema/cafe-perfeito-white_3.png' %}" width="50%"#}
+                {#                         alt="Café Perfeito">#}
+                {#                </div>#}
+                <div class="banner-content col-lg-7">
+                    <h6 class="text-white text-justify text-uppercase">Em Manaus o café em grão 100% arábica que vai
+                        surpreender seu paladar</h6>
+                    <h1 class="text-justify">Solicite contato agora e ganhe voucher com desconto de <strong
+                            style="color: red;">10%
+                        <!--+ frete grátis*-->
+                        {#                        <strong style=" font-size: small; align-items: revert;">*</strong>#}
+                    </strong> para utilizar no seu primeiro pedido.</h1>
+                    <label for="id_li">* voucher não cumulativo. **entrega grátis para Manaus nos pedidos acima de R$100,00.</label><br><br>
+                    <form method="post">
+                        {% csrf_token %}
+                        <div>
+                            <label for="id_lead-nome">Seu nome:</label>
+                            <input type="text" name="nome" id="id_lead-nome" class="form-control"
+                                   aria-describedby="tooltipNome" required>
+                        </div>
+                        <div>
+                            <label for="id_lead-email">Seu melhor email:</label>
+                            <input type="email" name="email" id="id_lead-email" class="form-control"
+                                   aria-describedby="tooltipEmail" required>
+                        </div>
+                        <div>
+                            <label for="id_lead-fone">Seu celular:</label>
+                            <input type="tel" name="fone" id="id_lead-fone" class="form-control text-end phone_with_ddd"
+                                   aria-describedby="tooltipFone" required>
+                        </div>
+                        <div>
+                            <input type="checkbox" required name="li" value="1" id="id_li">
+                            <label for="id_li">Li e aceito os termos e condições da política de privacidade. </label>
+                            <a href="{% url 'privacy-policy' %}" target="_blank" rel="noopener">ler agora</a>
+                        </div>
+                        <br>
+                        <button class="btn-lead" type="submit">Solicitar contato</button>
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+{% endblock %}
+
+{% block block_footer %}
+    {#    <div class="container-fluid row align-items-center header">#}
+    {#        <div class="texto text-white">#}
+    {#            <p class="txt1">Seg-Sex: 8h às 17h<br>Sáb: 8h às 14h<br></p>#}
+    {#            <p class="txt2"><a href="tel:{{ settings.TELEFONE }}"><i class="fas fa-phone"></i> {{ settings.TELEFONE }}#}
+    {#            </a></p>#}
+    {#        </div>#}
+    {#    </div>#}
+{% endblock %}
+
+
+

@@ -1,0 +1,40 @@
+/* Light mode */
+@media (prefers-color-scheme: light) {
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+}
+
+h1 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 26px;
+  font-style: normal;
+  font-width: bold;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.div-logo {
+  alignment: center;
+
+  picture img {
+    width: 80%;
+  }
+}
+
+.link-home-page  {
+  text-align: center !important;
+  padding-top: 20px !important;
+
+  a:hover {
+    color: #ff6600 !important;
+  }
+}
+
+
+
